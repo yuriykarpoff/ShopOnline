@@ -10,44 +10,66 @@ body {
     color: #2d2d2d;
 }
 
-p {
-    margin-bottom: 50px;
+.wrapper {
+    width: 1920px;
+    margin: 100px 75px 86px 75px;
 }
 
-p:last-child {
-    margin-bottom: 86px;
-}
-
-h1 {
+.main_title {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 58px;
 }
 
-.wrapper {
-    width: 960px;
-    margin-top: 100px;
-    margin-left: 75px;
+.text {
+    margin-bottom: 33px;
 }
 
-.instruction-list {
-    color: #525252;
+.text:last-child {
+    margin-bottom: 0;
+}
+
+.nav-list {
     font-size: 16px;
     line-height: 24px;
     margin-left: 18px;
+}
+
+.nav-link {
+    color: #525252;
+    text-decoration: none;
+}
+
+.introductory-part {
     margin-bottom: 50px;
 }
 
 .image {
-    width: 960px;
-    height: 490px;
+    width: 1095px;
+    height: 560px;
     margin-bottom: 50px;
 }
 
+.based-part {
+    width: 1095px;
+    margin-bottom: 63px;
+}
+
+.final-part {
+    width: 1095px;
+}
+
 .title-bold {
+    font-size: 22px;
     font-weight: 700;
+}
+
+.title-regular {
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .text-final {
     white-space: pre-line;
 }
+
