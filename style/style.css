@@ -1,40 +1,45 @@
-* {
-    margin: 0;
-    padding: 0;
-} 
-
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 22px;
     line-height: 33px;
     color: #2d2d2d;
+    margin: 0;
+}
+
+.article {
+    padding: 100px 0 86px;
 }
 
 .wrapper {
-    max-width: 1770px;
-    margin: 100px auto 86px auto;
+    max-width: 1830px;
+    padding: 0 30px;
+    margin: 0 auto;
 }
 
 .main-title {
     font-size: 50px;
     font-weight: 700;
     line-height: 65px;
-    margin-bottom: 58px;
+    margin: 0 0 58px;
 }
 
 .text {
-    margin-bottom: 33px;
+    margin: 0 0 33px;
 }
 
-.text:nth-of-type(2) {
-    margin-bottom: 50px;
+.text:last-child {
+    margin: 0;
+}
+
+.nav {
+    padding: 17px 0 23px;
 }
 
 .nav-list {
     font-size: 16px;
     line-height: 24px;
-    margin-left: 18px;
-    margin-bottom: 50px;
+    margin: 0;
+    padding: 0 0 0 15px;
 }
 
 .nav-link {
@@ -43,26 +48,37 @@ body {
 }
 
 .image {
-    width: 1095px;
-    height: 560px;
-    margin-bottom: 50px;
+    padding: 27px 0 50px;
 }
 
-.based-part {
-    max-width: 1095px;
-    margin-bottom: 13px;
-}
-
-.final-part {
+.box {
     max-width: 1095px;
 }
 
 .title-bold {
     font-size: 22px;
     font-weight: 700;
+    margin: 0;
 }
 
 .title-regular {
     font-size: 22px;
     font-weight: 400;
+    margin: 0;
+}
+
+.section {
+    margin-bottom: 33px;
+}
+
+.section:last-child {
+    margin: 0;
+}
+
+.section .text {
+    margin: 0;
+}
+
+.text-p {
+    padding: 0 0 33px;
 }
