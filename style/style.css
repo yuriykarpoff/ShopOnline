@@ -27,6 +27,14 @@ body {
     margin: 0 0 33px;
 }
 
+.text-alt {
+    margin: 0;
+}
+
+.text-big-p {
+    padding: 0 0 33px;
+}
+
 .text:last-child {
     margin: 0;
 }
@@ -48,6 +56,7 @@ body {
 }
 
 .image {
+    max-width: 100%;
     padding: 27px 0 50px;
 }
 
@@ -75,10 +84,5 @@ body {
     margin: 0;
 }
 
-.section .text {
-    margin: 0;
-}
 
-.text-p {
-    padding: 0 0 33px;
-}
+
