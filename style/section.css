@@ -1,0 +1,37 @@
+.section {
+    margin-bottom: 33px;
+}
+
+.section:last-child {
+    margin: 0;
+}
+
+.section__title-bold {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.section__title-regular {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.section__text {
+    margin: 0 0 33px;
+}
+
+.section__text-xl-p {
+    padding: 0 0 33px;
+}
+
+.section__text-alt {
+    margin: 0;
+}
+
+.section__text:last-child {
+    margin: 0;
+}
+
+
