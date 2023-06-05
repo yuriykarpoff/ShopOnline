@@ -1,4 +1,6 @@
 @import url(global.css);
+@import url(var.css);
+@import url(header.css);
 @import url(article.css);
 @import url(nav.css);
 @import url(section.css);
