@@ -4,7 +4,6 @@
 }
 
 .header__inner {
-    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 61px;
@@ -22,6 +21,7 @@
     color: var(--white);
     cursor: pointer;
     transition-duration: 0.5s;
+    padding: 9px 28px;
 }
 
 .header__btn-nav:hover {
