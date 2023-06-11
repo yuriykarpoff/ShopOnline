@@ -1,6 +1,9 @@
+@import url(normalize.css);
 @import url(global.css);
+@import url(fonts.css);
 @import url(var.css);
 @import url(header.css);
 @import url(article.css);
 @import url(nav.css);
+@import url(promo.css);
 @import url(section.css);
