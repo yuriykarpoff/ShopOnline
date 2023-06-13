@@ -79,6 +79,13 @@
     line-height: 1.3;
     text-decoration: none;
     color: var(--shop__color);
+    transition-duration: 0.5s;
+}
+
+.shop-nav__link:hover {
+    color: var(--bg-blue-hover);
+    text-decoration: underline;
+    transition: color 0.2s linear
 }
 
 .shop-nav__item {
