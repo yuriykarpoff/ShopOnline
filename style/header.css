@@ -5,9 +5,11 @@
 
 .header__inner {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr) repeat(2, 2fr);
     grid-template-rows: 61px;
+    gap: 100px;
     align-items: center;
+    border: 1px solid tomato;
 }
 
 .header__btn-nav {
@@ -52,7 +54,7 @@
 .header__search-btn {
     background-color: var(--bg-blue);
     border: none;
-    padding: 13px 37px;
+    padding: 12px 37px;
     border-radius: 30px;
     cursor: pointer;
     position: absolute;
@@ -68,10 +70,9 @@
 
 
 .shop-nav__list {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(3, max-content);
-    grid-template-rows: 30px 24px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 70px;
 }
 
 .shop-nav__link {
@@ -80,4 +81,39 @@
     line-height: 1.3;
     text-decoration: none;
     color: var(--shop__color);
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.shop-nav__item {
+    display: grid;
+    justify-content: center;
+    padding: 6px 0 0;
+}
+
+.shop-nav__icon {
+    justify-self: center;
+    margin: 0 0 10px;
+}
+
+
+.basket {
+    position: relative;
+}
+
+.basket__count {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+    padding: 4px;
+    color: var(--basket-color);
+    font-weight: 700;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
