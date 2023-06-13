@@ -1,0 +1,188 @@
+@media (max-width: 1024px) {
+    .container {
+        width: 1000px;
+    }
+    .header {
+        padding: 34px 0 0;
+        margin: 0 0 60px;
+    }
+    .header__inner {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 34px 0;
+    }
+    .logo {
+        grid-row: 1 / 2;
+    }
+    .header__btn-nav {
+        grid-row: 2 / 3;
+    }
+    .header__search {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .header__search-input {
+        min-width: 700px;
+        min-height: 54px
+    }
+    .shop-nav {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: end;
+    }
+    .shop-nav__list {
+        column-gap: 0;
+        grid-template-columns: repeat(3, 88px);
+    }
+    .basket__count {
+        top: 0;
+        right: 18px;
+    }
+    /* Блок промо */
+    .promo {
+        padding: 0 0 106px;
+    }
+    .promo__list {
+        grid-template-columns: repeat(4, 217px);
+        grid-template-rows: 314px repeat(4, 217px) 418px;
+        gap: 24px;
+    }
+    .promo__item1 {
+        grid-column: 1 / 5;
+    }
+    .promo__item1-info {
+        font-size: 40px;
+        padding: 80px 0 0 80px;
+        margin: 0 0 11px;
+        max-width: 300px;
+    }
+    .promo__item1-count-end {
+        margin-bottom: 10px;
+    }
+    .promo__item1-count {
+        text-align: center;
+        padding: 0 0 36px;
+    }
+    .promo__item1-count-number {
+        font-size: 40px;
+    }
+    .promo__item1-count-interval {
+        font-size: 20px;
+    }
+    .promo__item2-text {
+        font-size: 30px;
+        padding: 100px 0 20px 9px;
+    }
+    .promo__item2-text_normal {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1;
+    }
+    .promo__item3::after {
+        right: 10px;
+        bottom: 10px;
+    }
+    .promo__item3-text {
+        padding: 58px 0 0 9px;
+        font-size: 24px;
+    }
+    .promo__item4::after {
+        left: 10px;
+        top: 10px;
+    }
+    .promo__item5-text {
+        padding: 29px 50px 29px 25px;
+        font-size: 30px;
+        position: absolute;
+        left: 20px;
+        bottom: 22px;
+        max-width: 414px;
+    }
+    .promo__item6 {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+    }
+    .promo__item6-text {
+        font-size: 30px;
+        padding: 110px 0 0 20px;
+        max-width: 300px;
+    }
+    .promo__item7 {
+        grid-column: 1 / 3;
+        grid-row: 5 / 6;
+    }
+    .promo__item7::after {
+        right: 10px;
+        bottom: 10px;
+    }
+    .promo__item7-text {
+        font-size: 30px;
+        padding: 158px 0 0 20px;
+    }
+    .promo__item8 {
+        grid-column: 1 / 5;
+        grid-row: 6 / 7;
+    }
+    .promo__item8-text {
+        padding: 24px 46px;
+        font-size: 30px;
+        left: 30px;
+        bottom: 30px;
+    }
+    .promo__item9 {
+        grid-column: 3 / 4;
+        grid-row: 4 / 6;
+    }
+    .promo__item9::after {
+        right: 10px;
+        bottom: 10px;
+    }
+    .promo__item10 {
+        grid-column: 4 / 5;
+        grid-row: 4 / 5;
+    }
+    .promo__item10::after {
+        top: 10px;
+        left: 10px;
+    }
+    .promo__item10-text {
+        font-size: 20px;
+        padding: 177px 0 0 14px;
+    }
+    .promo__item11 {
+        grid-column: 4 / 5;
+        grid-row: 5 / 6;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 760px;
+    }
+    .header {
+        padding: 25px 0 0;
+        margin: 0 0 50px;
+    }
+    .header__inner {
+        gap: 29px 45px;
+    }
+    .header__btn-nav {
+    width: 115px;
+    height: 42px;
+    font-size: 16px;
+    padding: 7px 21px;
+    }
+    .header__search-input {
+        min-width: 540px;
+        height: 42px
+    }
+    .header__search-btn {
+        padding: 10px 26px;
+    }
+    /* Блок промо */
+    .promo__list {
+        grid-template-columns: repeat(4, 140px);
+        grid-template-rows: 280px repeat(4, 140px) 337px;
+        gap: 20px;
+    }
+}

@@ -8,8 +8,8 @@
     grid-template-columns: repeat(2, 1fr) repeat(2, 2fr);
     grid-template-rows: 61px;
     gap: 100px;
+    justify-content: space-between;
     align-items: center;
-    border: 1px solid tomato;
 }
 
 .header__btn-nav {
@@ -32,8 +32,6 @@
 }
 
 .header__search {
-    display: grid;
-    grid-template-columns: 5fr 1fr;
     position: relative;
 }
 
@@ -81,8 +79,6 @@
     line-height: 1.3;
     text-decoration: none;
     color: var(--shop__color);
-    font-size: 16px;
-    line-height: 130%;
 }
 
 .shop-nav__item {
