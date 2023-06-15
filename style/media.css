@@ -1,8 +1,12 @@
 @media (max-width: 1206px) {
     .container {
-        width: 1150px;
-        color: red;
-        
+        width: 1132px;
+        color: blue;
+    }
+    .promo__list {
+        grid-template-columns: repeat(4, 265px);
+        grid-template-rows: 314px repeat(4, 265px) 418px;
+        gap: 24px;
     }
 }
 
