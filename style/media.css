@@ -1,7 +1,8 @@
 @media (max-width: 1206px) {
     .container {
-        max-width: 1132px;
-        color: tomato;
+        width: 1132px;
+        color: green;
+        visibility: hidden;
     }
     .promo__list {
         grid-template-columns: repeat(4, 265px);
