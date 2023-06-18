@@ -1,3 +1,29 @@
+@media (max-width: 1500px) {
+    .container {
+        width: 1310px;
+        border: 1px solid tomato;
+    }
+    .header__inner {
+        grid-template-columns: 190px 151px 500px 280px; 
+        gap: 40px;
+    }
+    .header__search-input {
+        min-width: 457px;
+    }
+    .header__search-btn {
+        display: none;
+    }
+    .shop-nav__list {
+        column-gap: 20px;
+        grid-template-columns: 80px 80px 80px;
+    }
+    .promo__list {
+        grid-template-columns: repeat(6, 200px);
+        grid-template-rows: 314px repeat(4, 200px) 418px;
+        gap: 10px;
+    }
+}
+
 @media (max-width: 1024px) {
     .container {
         width: 1000px;
