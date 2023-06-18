@@ -5,9 +5,8 @@
 
 .header__inner {
     display: grid;
-    grid-template-columns: repeat(2, 1fr) repeat(2, 2fr); 
+    grid-template-columns: repeat(4, auto);
     grid-template-rows: 1fr;
-    gap: 100px;
     justify-content: space-between;
     align-items: center;
 }
@@ -36,7 +35,7 @@
 }
 
 .header__search-input {
-    min-width: 757px;
+    width: 757px;
     min-height: 54px;
     border: none;
     border-radius: 30px;
@@ -66,10 +65,13 @@
     transition: background-color 0.5s linear;
 }
 
+.shop-nav {
+    justify-self: end;
+}
 
 .shop-nav__list {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 80px);
   column-gap: 70px;
 }
 

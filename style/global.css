@@ -67,6 +67,10 @@ html {
     margin: 0 auto;
 }
 
+/* .main {
+  display: none;
+} */
+
 .image {
     max-width: 100%;
     padding: 27px 0 50px;
