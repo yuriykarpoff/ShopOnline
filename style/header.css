@@ -71,7 +71,7 @@
 
 .shop-nav__list {
   display: grid;
-  grid-template-columns: repeat(3, 80px);
+  grid-template-columns: 69px 63px 82px;
   column-gap: 70px;
 }
 
@@ -82,23 +82,22 @@
     text-decoration: none;
     color: var(--shop__color);
     transition-duration: 0.5s;
+    display: block;
 }
 
 .shop-nav__link:hover {
     color: var(--bg-blue-hover);
-    text-decoration: underline;
     transition: color 0.2s linear
 }
 
 .shop-nav__item {
     display: grid;
-    justify-content: center;
     padding: 6px 0 0;
 }
 
 .shop-nav__icon {
-    justify-self: center;
-    margin: 0 0 10px;
+    display: block;
+    margin: 0 auto 10px;
 }
 
 

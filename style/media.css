@@ -121,13 +121,9 @@
         grid-row: 1 / 2;
         justify-self: end;
     }
-    .shop-nav__list {
-        column-gap: 0;
-        grid-template-columns: repeat(3, 88px);
-    }
     .basket__count {
         top: 0;
-        right: 18px;
+        right: 8px;
     }
     /* Блок промо */
     .promo {
@@ -248,6 +244,9 @@
 @media (max-width: 1000px) {
     .container {
         width: 900px;
+    }
+    .promo {
+        padding: 0 0 50px;
     }
     .promo__list {
         grid-template-columns: repeat(4, 195px);
@@ -485,8 +484,13 @@
         grid-row: 2 / 3;
         justify-self: end;
     }
-    .shop-nav__link {
+    .shop-nav__text {
         display: none;
+    }
+
+    .shop-nav__icon {
+        width: 20x;
+        height: 20px;
     }
     .shop-nav__list {
         column-gap: 26px;
@@ -494,7 +498,9 @@
     }
     .basket__count {
         top: 0;
-        right: -10px;
+        right: -3px;
+        width: 12px;
+        height: 12px;
     }
     /* Блок промо */
     .promo {
@@ -617,17 +623,6 @@
         grid-row: 8 / 9;
     }
 }
-
-/* @media (max-width: 480px) {
-    .container {
-        width: 450px;
-    }
-    .promo__list {
-        grid-template-columns: repeat(2, 185px);
-        grid-template-rows: 280px 185px 118px 280px repeat(2, 118px) repeat(2, 185px) 123px;
-        gap: 20px;
-    }
-} */
 
 @media (max-width: 480px) {
     .container {
