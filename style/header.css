@@ -83,6 +83,7 @@
     color: var(--shop__color);
     transition-duration: 0.5s;
     display: block;
+    z-index: 5;
 }
 
 .shop-nav__link:hover {
