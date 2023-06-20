@@ -533,7 +533,7 @@
     .promo__list {
         grid-template-columns: repeat(2, 200px);
         grid-template-rows: 280px 200px 118px 280px repeat(2, 118px) repeat(2, 200px) 123px;
-        gap: 40px;
+        gap: 20px;
     }
     .promo__item1 {
         grid-column: 1 / 3;
