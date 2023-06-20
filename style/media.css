@@ -531,8 +531,8 @@
         padding: 0 0 10px;
     }
     .promo__list {
-        grid-template-columns: repeat(2, 200px);
-        grid-template-rows: 280px 200px 118px 280px repeat(2, 118px) repeat(2, 200px) 123px;
+        grid-template-columns: repeat(2, 210px);
+        grid-template-rows: 280px 210px 118px 280px repeat(2, 118px) repeat(2, 210px) 123px;
         gap: 20px;
     }
     .promo__item1 {
