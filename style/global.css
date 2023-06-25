@@ -62,14 +62,10 @@ html {
   }
 
 .container {
-    width: 1830px;
+    max-width: 1830px;
     padding: 0 30px;
     margin: 0 auto;
 }
-
-/* .main {
-  display: none;
-} */
 
 .image {
     max-width: 100%;
